@@ -5,6 +5,8 @@ on:
   schedule:
     - cron: '42 7 * * *' # run at 7:42 UTC (morning) every day
 
+  workflow_dispatch:
+
 permissions:
   contents: read
 
